@@ -5,83 +5,11 @@
 }
 
 
-
-body {
-    font-family: 'Roboto', sans-serif;
-}
-
-
-
-.header {
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    justify-content: space-between;
-
-}
-
-
-
-.links {
-    line-height: 1.4;
-    list-style: none; 
-}
-
-
-
-.nav {
-    width: 100%;
-}
-
-
-.nav__lista {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    list-style: none;
-
-    gap: 1rem;
-}
-
-
-
-.imagen-logo {
-    display: flex;
-    flex-direction: row;
-    justify-content: right;
-    align-items: center; 
-}
-
-
-
-.imagen_logo {
-    border-radius: 10px;
-    width: 100px;
-    height: 100px;
-}
-
-
-
-.fondo-1 {
-    background-image: url(../imagenes/fondo-nubes.jpg);
-    background-repeat: repeat;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-}
-
+@import "./components/header";
 
 @import "./components/main";
 
-
-.footer {
-    background-color: white;
-
-    .pie {
-        color: black; 
-    }
-}
+@import "./components/footer";
 
 
 .fondo-2 {
@@ -352,30 +280,6 @@ p {
 
 
 
-.footer {
-    padding: 2rem 1rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    
-}
-
-
-
-.pie {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;  
-    font-size: 20px;
-    font-weight: 300;
-    align-items: center;
-}
-
-
-
-.header__icono {
-    display: none;
-}
 
 
 
