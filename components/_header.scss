@@ -4,15 +4,6 @@ body {
 }
 
 
-.fondo-1 {
-    background-image: url(../imagenes/fondo-nubes.jpg);
-    background-repeat: repeat;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-}
-
-
 .header {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
     display: flex;
@@ -60,4 +51,9 @@ body {
     border-radius: 10px;
     width: 100px;
     height: 100px;
+}
+
+
+.header__icono {
+    display: none;
 }
