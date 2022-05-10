@@ -1,0 +1,216 @@
+/*pag inicio*/
+
+@media screen and (max-width: 1024px) {
+
+    .rewards__grid {
+       grid-template-columns: repeat(2, 1fr);
+       grid-template-rows: 300px 300px;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+
+   body {
+      background-color: white;
+   }
+   
+
+    .header {
+        flex-direction: row;
+        
+    }
+
+    .nav__lista {
+        display: none;
+    }
+
+    .header__icono {
+        display: block;
+        font-size: 25px;
+    }
+    
+
+    .seccion {
+        padding-top: 1rem;
+        flex-direction: column-reverse;
+    }
+
+    .sec__1, .sec__2 {
+        width: 100%;
+    }
+
+    .imagen_personas {
+        width: 100%;
+        height: auto;
+    }
+
+    .rewards__grid {
+        grid-template-columns: 1fr;
+        grid-template-rows: 300px 300px 300px 300px;
+     }
+
+    .footer {
+        flex-direction: column;
+        gap: 2rem;
+    }
+}
+
+/*pag tickets*/
+
+@media screen and (max-width: 1024px) {
+
+}
+
+
+
+
+@media screen and (max-width: 600px) {
+
+    .header {
+        flex-direction: row;
+    }
+
+    .nav__lista {
+        display: none;
+    }
+
+    .header__icono {
+        display: block;
+        font-size: 25px;
+    }
+
+    .seccion__tickets {
+        padding-top: 1rem;
+        flex-direction: column-reverse;
+    }
+
+    .sec__t1, .sec__t2 {
+        width: 100%;
+    }
+
+    .imagen_tickets {
+        width: 100%;
+        height: auto;
+    }
+
+    .footer {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+}
+
+
+/*Pag Lineup*/
+
+@media screen and (max-width: 1024px) {
+
+}
+
+@media screen and (max-width: 600px) {
+
+    .header {
+        flex-direction: row;
+    }
+
+    .nav__lista {
+        display: none;
+    }
+
+    .header__icono {
+        display: block;
+        font-size: 25px;
+    }
+
+    .seccion__lineup {
+        padding-top: 1rem;
+        flex-direction: column-reverse;
+    }
+
+    .lineup {
+        width: 100%;
+        height: auto;
+    }
+
+    .footer {
+        flex-direction: column;
+        gap: 2rem;
+    }
+}
+
+
+
+/* Pag Info*/
+
+@media screen and (max-width: 1024px) {
+
+}
+
+@media screen and (max-width: 600px) {
+
+    .header {
+        flex-direction: row;
+    }
+
+    .nav__lista {
+        display: none;
+    }
+
+    .header__icono {
+        display: block;
+        font-size: 25px;
+    }
+
+    .seccion__info {
+        padding-top: 1rem;
+        flex-direction: column-reverse;
+    }
+
+    .imagen-mapa {
+        width: 100%;
+        height: auto;
+    }
+
+    .footer {
+        flex-direction: column;
+        gap: 2rem;
+    }
+}
+
+
+/* Pag Contactos*/
+
+@media screen and (max-width: 1024px) {
+
+}
+
+@media screen and (max-width: 600px) {
+
+    .header {
+        flex-direction: row;
+    }
+
+    .nav__lista {
+        display: none;
+    }
+
+    .header__icono {
+        display: block;
+        font-size: 25px;
+    }
+
+    .seccion__contactos {
+        padding-top: 1rem;
+        flex-direction: column-reverse;
+    }
+
+    
+
+    .footer {
+        flex-direction: column;
+        gap: 2rem;
+    }
+}
+
+
