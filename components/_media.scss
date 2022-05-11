@@ -18,18 +18,18 @@
 
     .header {
         flex-direction: row;
-        
     }
 
     .nav__lista {
         display: none;
     }
 
+
     .header__icono {
         display: block;
         font-size: 25px;
     }
-    
+
 
     .seccion {
         padding-top: 1rem;
@@ -148,6 +148,7 @@
 }
 
 @media screen and (max-width: 600px) {
+
 
     .header {
         flex-direction: row;
