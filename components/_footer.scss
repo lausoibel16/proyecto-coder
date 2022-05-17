@@ -24,3 +24,22 @@
     align-items: center;
 }
 
+
+$rrss: (
+    yt: red,
+    tw: #55acee,
+    insta: #c92d8f,
+    face: blue ,
+  );
+
+  @each $name, $color in $rrss {
+    .#{$name} {
+      background-color: $color;
+      margin: 0 5px;
+      padding: 10px;
+      color: #fff;
+      border-radius: 20px;
+    }
+  }
+
+
