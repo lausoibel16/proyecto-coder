@@ -214,7 +214,7 @@ p {
 
 
 .titulo-info {
-    color: #0F2A08; 
+    color: rgb(124, 8, 124); 
     font-size: 35px;
     font-style: normal;
     font-weight: 400;
@@ -224,6 +224,15 @@ p {
     top: 10px;
 }
 
+
+.seccion__info {
+    &__sobre {
+
+        &-info {
+            @extend .titulo-info
+        }
+    }
+}
 
 
 .titulo-preguntas {
@@ -262,6 +271,19 @@ p {
     display: flex;
     justify-content: center;
 }
+
+
+.container {
+    display: grid;
+    gap: 50px;
+  }
+
+@mixin Container($justifyContent, $shadow) {
+    display: flex;
+    justify-content: $justifyContent;
+    align-items: center;
+    padding: 30px 20px;
+  }
 
 
 
